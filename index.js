@@ -1,3 +1,4 @@
+
 import express from "express";
 import dotenv from "dotenv";
 import dbConnect from "../config/database.js";
@@ -26,5 +27,5 @@ dbConnect();
 
 
 app.listen(PORT, () => {
-  console.log("Server is running at port:", PORT);
+  console.log("Server is running at port:", PORT);
 });
